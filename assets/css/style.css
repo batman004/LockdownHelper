@@ -95,9 +95,10 @@ body::-webkit-scrollbar-thumb {
 /* buttons */
 .btn{
     border: 4px solid white;
+    font-family: 'Lato',sans-serif;
+    font-size: 1.7rem;
     padding: 1.2rem;
     color:white;
-    
 }
 .btn:focus{
     outline: 0;
