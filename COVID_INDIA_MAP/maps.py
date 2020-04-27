@@ -14,7 +14,7 @@ map = folium.Map(location=[20.5937, 78.9629], zoom_start=5,tiles='cartodbpositro
 tooltip="Click to See Data"
 
 for lat, lon,state,Confirmed,Recovered,Deaths in zip(ind_grp['Latitude'], ind_grp['Longitude'],ind_grp['State'],ind_grp['Confirmed'],ind_grp['Recovered'],ind_grp['Deaths']):
-    folium.Marker([lat, lon],
+    folium.CircleMarker([lat, lon],
                         radius=5,
                         color='blue',
                       popup =(
