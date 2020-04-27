@@ -1,0 +1,117 @@
+body {
+    background-color: black;
+    font-size: 1.1rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-padding-top: 70px;
+    padding-top: 75px;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    scroll-padding-top: 70px;
+}
+
+/*logo*/
+.logo{
+    width: 8rem;
+    height: 5rem;
+}
+
+
+
+/* Navbar */
+.navbar {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 17pt;
+    border-left: 3px solid white;
+    background-color: black;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: rgb(116, 111, 111);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: rgb(8, 8, 8);
+    background-color: rgb(238, 243, 236);
+    border-radius: 0;
+    margin: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+
+}
+/* Navbar Toggler */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='1' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    border-radius: 3px;
+    padding: 19px;
+}
+
+/* fold-page-home */
+.box{
+    position: absolute;
+    width: 1205px;
+    height: 531px;
+    left: 106px;
+    top: 314px; 
+    background: #000000;
+    border: 6px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+
+/* scroll-bar */
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 6px rgba(255, 255, 255);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+/* alignment of nav-elements*/
+.section{
+    padding-top: 3rem;
+}
+/* buttons */
+.btn{
+    border: 4px solid white;
+    padding: 1.2rem;
+    color:white;
+    
+}
+.btn:focus{
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+
+  .zoomin img:hover {
+    -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+     transform:scale(1.05);
+  }
