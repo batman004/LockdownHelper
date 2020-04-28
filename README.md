@@ -3,4 +3,3 @@
 <br>
 Project for the CoreHack 2020!
 A one-stop solution for all your lockdown needs.From Getting Essential services to veiwing top trending movies, LockdownHub contains all the resources required to help you get through these difficult times.
-
