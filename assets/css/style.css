@@ -128,6 +128,58 @@ body::-webkit-scrollbar-thumb {
     color: white;
 
 }
+/*Scroll Down animation*/
+.scrolldown{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width:40px;
+    height:40px;
+    transform: translateY(-80px) translateX(-50%)
+        rotate(45deg);
+}
+.scrolldown span{
+    position: absolute;
+    top:0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+}
+.scrolldown span:nth-child(1){
+    transform: translate(-15px,-15px);
+    animation-delay: -0.4s;
+}
+.scrolldown span:nth-child(2){
+    transform: translate(0,0);
+    animation-delay: -0.2s;
+}
+.scrolldown span:nth-child(3){
+    transform: translate(15px,15px);
+    animation-delay: 0s;
+}
+@keyframes animate{
+    0%{
+        top: -5px;
+        left: -5px;
+        opacity: 0;
+    }
+    25%{
+        top: 0px;
+        left: 0px;
+        opacity: 1;
+    }
+    100%{
+        top: -5px;
+        left: -5px;
+        opacity: 0;
+    }
+}
+/*End of scroll down animation*/
 .zoomin img:hover {
     -webkit-transform:scale(1.05); /* Safari and Chrome */
     -moz-transform:scale(1.05); /* Firefox */
@@ -135,161 +187,161 @@ body::-webkit-scrollbar-thumb {
     -o-transform:scale(1.05); /* Opera */
      transform:scale(1.05);
   }
-/*For music animation*/
-span{
+/*For Music animation*/
+.spans span{
     width:20px;
     height:30px;
     margin-left: 1px;
     background-color:#ffc971;
     display: inline-block;
     transform-style:preserve-3d;
-    animation: music 1.5s infinite ease-in-out;
+    animation: music 1.5s infinite ;
 }
-span:nth-of-type(2){
+.spans span:nth-of-type(2){
     animation-delay:0.2s;    
 }
-span:nth-of-type(3){
+.spans span:nth-of-type(3){
     animation-delay:.4s;
 }
-span:nth-of-type(4){
+.spans span:nth-of-type(4){
     animation-delay:.6s;
 }
-span:nth-of-type(5){
+.spans span:nth-of-type(5){
     animation-delay:.8s;
 }
-span:nth-of-type(6){
+.spans span:nth-of-type(6){
     animation-delay:1s;
 }
-span:nth-of-type(7){
+.spans span:nth-of-type(7){
     animation-delay:1.2s;
 }
-span:nth-of-type(8){
+.spans span:nth-of-type(8){
     animation-delay:1.4s;
 }
-span:nth-of-type(9){
+.spans span:nth-of-type(9){
     animation-delay:1.6s;
 }
-span:nth-of-type(10){
+.spans span:nth-of-type(10){
     animation-delay:1.8s;
 }
-span:nth-of-type(11){
+.spans span:nth-of-type(11){
     animation-delay:2.0s;
 }
-span:nth-of-type(12){
+.spans span:nth-of-type(12){
     animation-delay:2.2s;
 }
-span:nth-of-type(13){
+.spans span:nth-of-type(13){
     animation-delay:2.4s;
 }
-span:nth-of-type(14){
+.spans span:nth-of-type(14){
     animation-delay:2.6s;
 }
-span:nth-of-type(15){
+.spans span:nth-of-type(15){
     animation-delay:2.8s;    
 }
-span:nth-of-type(16){
+.spans span:nth-of-type(16){
     animation-delay:3.0s;
 }
-span:nth-of-type(17){
+.spans span:nth-of-type(17){
     animation-delay:3.2s;
 }
-span:nth-of-type(18){
+.spans span:nth-of-type(18){
     animation-delay:3.4s;
 }
-span:nth-of-type(19){
+.spans span:nth-of-type(19){
     animation-delay:3.6s;
 }
-span:nth-of-type(20){
+.spans span:nth-of-type(20){
     animation-delay:3.8s;
 }
-span:nth-of-type(21){
+.spans span:nth-of-type(21){
     animation-delay:4.0s;
 }
-span:nth-of-type(22){
+.spans span:nth-of-type(22){
     animation-delay:4.2s;
 }
-span:nth-of-type(23){
+.spans span:nth-of-type(23){
     animation-delay:4.4s;
 }
-span:nth-of-type(24){
+.spans span:nth-of-type(24){
     animation-delay:4.6s;
 }
-span:nth-of-type(25){
+.spans span:nth-of-type(25){
     animation-delay:4.8s;
 }
-span:nth-of-type(26){
+.spans span:nth-of-type(26){
     animation-delay:5.0s;
 }
-span:nth-of-type(27){
+.spans span:nth-of-type(27){
     animation-delay:5.2s;
 }
-span:nth-of-type(28){
+.spans span:nth-of-type(28){
     animation-delay:5.4s;
 }
-span:nth-of-type(29){
+.spans span:nth-of-type(29){
     animation-delay:5.6s;
 }
-span:nth-of-type(30){
+.spans span:nth-of-type(30){
     animation-delay:5.8s;
 }
-span:nth-of-type(31){
+.spans span:nth-of-type(31){
     animation-delay:6.0s;
 }
-span:nth-of-type(32){
+.spans span:nth-of-type(32){
     animation-delay:6.2s;
 }
-span:nth-of-type(33){
+.spans span:nth-of-type(33){
     animation-delay:6.4s;
 }
-span:nth-of-type(34){
+.spans span:nth-of-type(34){
     animation-delay:6.6s;
 }
-span:nth-of-type(35){
+.spans span:nth-of-type(35){
     animation-delay:6.8s;
 }
-span:nth-of-type(36){
+.spans span:nth-of-type(36){
     animation-delay:7.0s;    
 }
-span:nth-of-type(37){
+.spans span:nth-of-type(37){
     animation-delay:7.2s;
 }
-span:nth-of-type(38){
+.spans span:nth-of-type(38){
     animation-delay:7.4s;
 }
-span:nth-of-type(39){
+.spans span:nth-of-type(39){
     animation-delay:7.6s;
 }
-span:nth-of-type(40){
+.spans span:nth-of-type(40){
     animation-delay:7.8s;
 }
-span:nth-of-type(41){
+.spans span:nth-of-type(41){
     animation-delay:8.0s;
 }
-span:nth-of-type(42){
+.spans span:nth-of-type(42){
     animation-delay:8.2s;
 }
-span:nth-of-type(43){
+.spans span:nth-of-type(43){
     animation-delay:8.4s;
 }
-span:nth-of-type(44){
+.spans span:nth-of-type(44){
     animation-delay:8.6s;
 }
-span:nth-of-type(45){
+.spans span:nth-of-type(45){
     animation-delay:8.8s;
 }
-span:nth-of-type(46){
+.spans span:nth-of-type(46){
     animation-delay:9.0s;
 }
-span:nth-of-type(47){
+.spans span:nth-of-type(47){
     animation-delay:9.2s;
 }
-span:nth-of-type(48){
+.spans span:nth-of-type(48){
     animation-delay:9.4s;
 }
-span:nth-of-type(49){
+.spans span:nth-of-type(49){
     animation-delay:9.6s;
 }
-span:last-of-type{
+.spans span:last-of-type{
     animation-delay: 9.8s;
 }
 
@@ -311,3 +363,4 @@ span:last-of-type{
         background-color:#ffb627;
     }
 }
+/*End of music animation*/
