@@ -50,7 +50,6 @@ html {
 
 .navbar a:hover {
     color: rgb(116, 111, 111);
-    background-image: image("");
 }
 
 .nav-pills .nav-link.active,
