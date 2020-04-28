@@ -50,6 +50,7 @@ html {
 
 .navbar a:hover {
     color: rgb(116, 111, 111);
+    background-image: image("");
 }
 
 .nav-pills .nav-link.active,
@@ -114,7 +115,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .btn:hover{
-    background-color: white;
+    background-color: yellow;
     color: black;
     font-weight: bold;
 }
@@ -130,3 +131,5 @@ body::-webkit-scrollbar-thumb {
     -o-transform:scale(1.05); /* Opera */
      transform:scale(1.05);
   }
+
+  

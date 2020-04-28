@@ -14,13 +14,15 @@ myreq.onload=function(){
       '<section class="section">'+
       '<div class="container">'+
       '<div class="row">'+
-      '<div class="col-sm-12">'+
-      '<p style="font-weight: bold; font-size: large;">'
+      '<div class="col-sm-7">'+
+      '<h2 style="font-weight: bold;">'
       +(i+1)+'.'+mylist[i].original_title 
-      +'.</p>'
-      +'<p>'+mylist[i].overview +'.</p>'
-      +'<p style="text-align: center;"> Rating '+mylist[i].vote_average+'.</p>'
-       +'<img src='+'https://image.tmdb.org/t/p/w500/'+ mvimg+' class="center">'
+      +'.</h2>'
+      +'<p style="font-size:24px;">'+mylist[i].overview +'.</p>'
+      +'<p style="text-align: center; font-size:20px;border: 4px solid green;background-color:green;color:white;font-weight: bold;padding:0.5rem;"> IMDB Rating '+mylist[i].vote_average+'</p>'
+      +'</div>'
+      +'<div class="col-sm-5">'
+       +'<img src='+'https://image.tmdb.org/t/p/w500/'+ mvimg+' class="center" style="border:4px solid white;padding:1rem;">'+'</div>'
       '</div>';
     }
     mystr.insertAdjacentHTML('beforeend',htmlstring);
