@@ -26,7 +26,7 @@ myreq.onload=function(){
       +(i+1)+'.'+title 
       +'.</h2>'
       +'<p style="font-size:24px;">'+mylist[i].overview +'.</p>'
-      +'<p style="font-size:26px;">Released on:'+mylist[i].release_date +'.</p>'
+      +'<p style="font-size:20px;border-left: 2px solid white;padding-left:1rem">Released on:  '+mylist[i].release_date +'.</p>'
       +'<p style="text-align: center; font-size:20px;border: 4px solid green;background-color:green;color:white;font-weight: bold;padding:0.5rem;"> IMDB Rating '+mylist[i].vote_average+'</p>'
       +'</div>'
       +'<div class="col-sm-5">'

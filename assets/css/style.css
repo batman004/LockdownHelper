@@ -370,3 +370,52 @@ body::-webkit-scrollbar-thumb {
     padding: 8px;
 }
 
+#srchtxt{
+    background-color: #000000;
+    margin: 5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    color: white;
+    overflow: hidden;
+    border: 3px solid white;
+    border-radius: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+#srchtxt:focus{
+    outline: 0;
+    box-shadow: none !important;
+background-color: white;
+opacity: 0.9;
+color: black;
+}
+
+#btn1{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    cursor: pointer;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 3px solid white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+#btn1:hover{
+    background-color: rgb(237, 223, 25);
+    color:black;
+    transition: background-color 0.8s ease;
+}
+#btn1:focus{
+    outline: 0;
+    box-shadow: none !important;
+}
+
