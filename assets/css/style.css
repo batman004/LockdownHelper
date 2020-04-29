@@ -114,7 +114,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .btn:hover{
-    background-color: yellow;
+    background-color: #FCE205;
     color: black;
     font-weight: bold;
 }
@@ -136,6 +136,14 @@ body::-webkit-scrollbar-thumb {
     width:500px;
     text-align:center;
    
+}
+.footer-text{
+    font-size: 1.4rem;
+    font-family: 'Lato',sans-serif;
+    color: white;
+}
+.footer-text:hover{
+    color: #FCE205;
 }
 /*Scroll Down animation*/
 .scrolldown{
