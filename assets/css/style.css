@@ -129,7 +129,7 @@ body::-webkit-scrollbar-thumb {
 
 }
 .main-img{
-    margin-top:-40px;
+    margin-top:-50px;
 }
 .hr{
     border: 3px solid white;
@@ -140,8 +140,7 @@ body::-webkit-scrollbar-thumb {
 /*Scroll Down animation*/
 .scrolldown{
     position: absolute;
-    margin-top: -10px;
-    bottom: 20px;
+    bottom: 40px;
     left: 50%;
     width:40px;
     height:40px;
