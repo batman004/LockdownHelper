@@ -131,6 +131,12 @@ body::-webkit-scrollbar-thumb {
 .main-img{
     margin-top:-40px;
 }
+.hr{
+    border: 3px solid white;
+    width:500px;
+    text-align:center;
+   
+}
 /*Scroll Down animation*/
 .scrolldown{
     position: absolute;
