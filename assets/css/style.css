@@ -128,9 +128,13 @@ body::-webkit-scrollbar-thumb {
     color: white;
 
 }
+.main-img{
+    margin-top:-40px;
+}
 /*Scroll Down animation*/
 .scrolldown{
     position: absolute;
+    margin-top: -10px;
     bottom: 20px;
     left: 50%;
     width:40px;
