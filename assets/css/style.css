@@ -55,12 +55,28 @@ html {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: rgb(8, 8, 8);
-    background-color: rgb(238, 243, 236);
+    border-bottom: 3px solid white;
+    background-color: black;
     border-radius: 0;
     margin: auto;
+    color: white;
     padding-left: 32px;
     padding-right: 32px;
 
+}
+.xyz:focus{
+    outline: 0;
+    box-shadow: none !important;
+}
+/* custom nav pills */
+@media (max-width: 1195px) {
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        background-color: transparent;
+        
+        color: rgb(255, 255, 255);
+    }
 }
 /* Navbar Toggler */
 .custom-toggler .navbar-toggler-icon {
